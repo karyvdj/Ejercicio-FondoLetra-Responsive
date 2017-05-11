@@ -1,0 +1,82 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+[class*="col-"]{
+   min-height: 7px;
+   float: left;
+}
+
+.container{
+   width: 100%;
+   margin: 0px auto;
+}
+
+.row:before, .row::after{
+   content: " ";
+   display: table;
+}
+
+.row:after{
+   clear: both;
+}
+
+.col-12{
+  width: 100%;
+}
+
+.alignCenter{
+  text-align: center;
+}
+
+@media (min-width: 0px) and (max-width:320px){
+  section{
+    background-image: url(../assets/img/frutas.png);
+    background-repeat: no-repeat;
+    height: 1050px;
+    color: blue;
+    font-family: 'Pacifico', cursive;
+  }
+  section>h1{
+    font-size: 2em;
+    padding-top: 3%;
+  }
+  section>p{
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 321px) and (max-width:768px){
+  section{
+    background-image: url(../assets/img/frutas.png);
+    background-repeat: no-repeat;
+    height: 1050px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+  }
+  section>h1{
+    font-size: 2em;
+    padding-top: 3%;
+  }
+  section>p{
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 769px) and (max-width:1300px){
+  section{
+    background-image: url(../assets/img/frutas.png);
+    background-repeat: no-repeat;
+    height: 1050px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+  }
+  section>h1{
+    font-size: 5em;
+    padding-top: 3%;
+  }
+  section>p{
+    font-size: 3em;
+  }
+}
