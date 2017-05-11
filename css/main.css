@@ -32,39 +32,37 @@
 
 @media (min-width: 0px) and (max-width:320px){
   section{
-    background-image: url(../assets/img/frutas.png);
-    background-repeat: no-repeat;
-    height: 1050px;
-    color: blue;
-    font-family: 'Pacifico', cursive;
-  }
-  section>h1{
-    font-size: 2em;
-    padding-top: 3%;
-  }
-  section>p{
-    font-size: 1em;
-  }
-}
-
-@media (min-width: 321px) and (max-width:768px){
-  section{
-    background-image: url(../assets/img/frutas.png);
+    background-image: url(../assets/img/escape.png);
     background-repeat: no-repeat;
     height: 1050px;
     color: white;
     font-family: 'Pacifico', cursive;
   }
   section>h1{
-    font-size: 2em;
-    padding-top: 3%;
+    visibility: hidden;
   }
   section>p{
-    font-size: 1em;
+    font-size: 2em;
   }
 }
 
-@media (min-width: 769px) and (max-width:1300px){
+@media (min-width: 321px) and (max-width:768px){
+  section{
+    background-image: url(../assets/img/gallinas.png);
+    background-repeat: no-repeat;
+    height: 1050px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+  }
+  section>h1{
+    visibility: hidden;
+  }
+  section>p{
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 769px){
   section{
     background-image: url(../assets/img/frutas.png);
     background-repeat: no-repeat;
